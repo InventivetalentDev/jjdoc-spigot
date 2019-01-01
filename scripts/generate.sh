@@ -25,7 +25,7 @@ cd ..
 # Run Doclet in index mode
 javadoc -docletpath ./temp/json-doclet-$DOCLET_VERSION-SNAPSHOT-jar-with-dependencies.jar -doclet org.inventivetalent.jsondoclet.JsonDoclet -outfile ../jjdoc/$SPIGOT_REV/ -sourcepath ./temp/Spigot/Spigot-API/src/main/java -public -subpackages org.bukkit:org.spigotmc
 # Run Doclet in single-file mode
-javadoc -docletpath ./temp/json-doclet-$DOCLET_VERSION-SNAPSHOT-jar-with-dependencies.jar -doclet org.inventivetalent.jsondoclet.JsonDoclet -outfile ../jjdoc/spigot-$SPIGOT_REV.json -sourcepath ./temp/Spigot/Spigot-API/src/main/java -public -subpackages org.bukkit:org.spigotmc
+javadoc -docletpath ./temp/json-doclet-$DOCLET_VERSION-SNAPSHOT-jar-with-dependencies.jar -doclet org.inventivetalent.jsondoclet.JsonDoclet -singlefile -outfile ../jjdoc/spigot-$SPIGOT_REV.json -sourcepath ./temp/Spigot/Spigot-API/src/main/java -public -subpackages org.bukkit:org.spigotmc
 
 
 ## Final cleanup
