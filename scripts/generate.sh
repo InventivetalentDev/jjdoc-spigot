@@ -3,7 +3,7 @@
 ### First "git clone https://github.com/InventivetalentDev/jjdoc-spigot.git"
 ### cd scripts
 
-DOCLET_VERSION="1.0.0"
+DOCLET_VERSION="1.0.1"
 SPIGOT_REV="1.13.2"
 
 # Create temp directory & cd into it
@@ -17,7 +17,7 @@ wget https://hub.spigotmc.org/jenkins/job/BuildTools/lastSuccessfulBuild/artifac
 java -jar BuildTools.jar --rev $SPIGOT_REV
 
 # Download the JSON doclet
-wget https://github.com/InventivetalentDev/jsondoclet/releases/download/v$DOCLET_VERSION/json-doclet-$DOCLET_VERSION-SNAPSHOT-jar-with-dependencies.jar
+wget https://github.com/InventivetalentDev/jsondoclet/releases/download/$DOCLET_VERSION-SNAPSHOT/json-doclet-$DOCLET_VERSION-SNAPSHOT-jar-with-dependencies.jar
 
 # cd back out of the temp directory
 cd ..
