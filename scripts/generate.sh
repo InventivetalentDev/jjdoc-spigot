@@ -21,3 +21,7 @@ cd ..
 
 # Run Doclet
 javadoc -docletpath ./temp/json-doclet-$DOCLET_VERSION-SNAPSHOT-jar-with-dependencies.jar -doclet org.inventivetalent.jsondoclet.JsonDoclet -outfile ../jjdoc/$SPIGOT_REV/ -sourcepath ./temp/Spigot/Spigot-API/src/main/java -public -subpackages org.bukkit:org.spigotmc
+
+
+## Final cleanup
+rm -Rf temp
