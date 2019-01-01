@@ -1,5 +1,8 @@
 #!/bin/sh
 
+### First "git clone https://github.com/InventivetalentDev/jjdoc-spigot.git"
+### cd scripts
+
 DOCLET_VERSION="1.0.0"
 SPIGOT_REV="1.13.2"
 
@@ -25,3 +28,6 @@ javadoc -docletpath ./temp/json-doclet-$DOCLET_VERSION-SNAPSHOT-jar-with-depende
 
 ## Final cleanup
 rm -Rf temp
+
+### Then cd ..
+### git add jjdoc && git commit && git push
