@@ -7,5 +7,5 @@ chmod +x generate.sh
 ## Generation
 cd ..
 git add .
-git commit "Update"
+git commit -m "Update"
 git push
