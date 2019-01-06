@@ -14,7 +14,7 @@ cd temp
 wget https://hub.spigotmc.org/jenkins/job/BuildTools/lastSuccessfulBuild/artifact/target/BuildTools.jar
 
 # Run BuildTools
-java -jar BuildTools.jar --rev $SPIGOT_REV
+java -jar BuildTools.jar --rev $SPIGOT_REV --skip-compile
 
 # Download the JSON doclet
 wget https://github.com/InventivetalentDev/jsondoclet/releases/download/$DOCLET_VERSION-SNAPSHOT/json-doclet-$DOCLET_VERSION-SNAPSHOT-jar-with-dependencies.jar
