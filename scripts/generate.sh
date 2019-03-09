@@ -3,7 +3,7 @@
 ### First "git clone https://github.com/InventivetalentDev/jjdoc-spigot.git"
 ### cd scripts
 
-DOCLET_VERSION="1.0.3"
+DOCLET_VERSION="1.0.4"
 SPIGOT_REV="1.13.2"
 
 # Create temp directory & cd into it
